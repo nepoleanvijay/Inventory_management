@@ -1,0 +1,78 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background: url('./image/product.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff; /* Adjust text color for better readability against the background */
+}
+
+header {
+    background: rgba(51, 51, 51, 0.8); /* Semi-transparent background for better readability */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 20px 0;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for sections */
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: #fff;
+}
+
+/*h2 {
+  position: relative;
+      right: 100px;
+      bottom: 500px;
+      margin: 0;
+}*/
+
+
+

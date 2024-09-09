@@ -1,0 +1,35 @@
+.center-text{
+        display:grid;
+       text-align:center;
+       place-items:center;
+       height:20vh;
+}
+.left-text{
+        display:flex;
+        text-align:center;
+        justify-content:center;
+
+}
+ h2 {
+            position:absolute; /* Remove the heading from the normal document flow */
+            top:10px
+            bottom: 800px; /* Distance from the bottom */
+            left: 0; /* Align to the left */
+            right: -800px; /* Align to the right */
+            text-align:bottom; /* Center the text horizontally */
+            margin-top: 50px; /* Remove default margin */
+            grid-row:2;
+        }
+
+
+.form-group {
+    margin-top: 50px;
+}
+
+
+.form-group input {
+    width: 3%;
+    padding: 10px;
+    border: 10px solid #ccc;
+    border-radius: 10px;
+}

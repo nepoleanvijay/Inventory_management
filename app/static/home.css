@@ -1,0 +1,20 @@
+.center-text{
+        display:grid;
+       text-align:center;
+       place-items:center;
+       height:50vh;
+}
+.left-text{
+        text-align:center;
+}
+
+
+.form-group input {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.form-group {
+    margin-bottom: 45px;
+}
